@@ -1,0 +1,25 @@
+[
+  {
+    "id": 1,
+    "name": "JAVASCRIPT",
+    "builds_directory": "/${CURRENT_PROJECT}/build_javascript",
+    "description": "Descripción de la JAVASCRIPT",
+    "actions": [
+      { "label": "c", "message": "Limpiar librerias antiguas JAVASCRIPT"},
+      { "label": "m", "message": "compilar JAVASCRIPT"},
+      { "label": "p", "message": "prepare_build JAVASCRIPT"}
+    ]
+  },
+  {
+    "id": 2,
+    "name": "LOG_COMPONENT",
+    "builds_directory": "/${CURRENT_PROJECT}/build_log_component",
+    "description": "Descripción del LOG_COMPONENT",
+    "actions": [
+      { "label": "c", "message": "Limpiar librerias antiguas LOG_COMPONENT"},
+      { "label": "m", "message": "compilar LOG_COMPONENT"},
+      { "label": "p", "message": "prepare_build LOG_COMPONENT"},
+      { "label": "k", "message": "Comprobar contenido"}
+          ]
+  }
+]
