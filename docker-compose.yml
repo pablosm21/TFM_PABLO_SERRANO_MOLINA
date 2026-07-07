@@ -22,7 +22,7 @@ services:
         tail -f /dev/null
     volumes:
       - simulation_data:/simulation
-      - ${SIMULATION_HOST_PATH:-/home/psmolina/TFM-SIMULATION}:/source:ro
+      - ${SIMULATION_HOST_PATH:-/home/psmolina/TFM/TFM-SIMULATION}:/source:ro
     healthcheck:
       test: ["CMD-SHELL", "test -f /simulation/.ready"]
       interval: 10s

@@ -1,0 +1,12 @@
+npm install en tfm-backend y tfm-frontend
+
+Para entornos linux habrá que comprobar que está docker corriendo ej.- (systemctl docker status o service docker status)
+Para entornos windows habrá que abrir Docker Deskpot
+
+docker compose --env-file .env.docker up -d --build   ---levantar todo
+
+docker run --rm -it -v tfm-unir_simulation_data:/data alpine sh ---meterse en la consola de simulacion
+
+docker-compose down ---parar todo
+
+docker volume rm tfm-unir_db_data tfm-unir_simulation_data   --elimina los volumenes
