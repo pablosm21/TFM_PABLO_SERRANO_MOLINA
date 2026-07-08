@@ -1,7 +1,7 @@
 npm install en tfm-backend y tfm-frontend
 
 Para entornos linux habrá que comprobar que está docker corriendo ej.- (systemctl docker status o service docker status)
-Para entornos windows habrá que abrir Docker Deskpot
+Para entornos windows habrá que abrir Docker Desktop
 
 docker compose --env-file .env.docker up -d --build   ---levantar todo
 
